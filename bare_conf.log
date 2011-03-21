@@ -1,11 +1,20 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2011.1.22)  17 MAR 2011 20:59
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=latex 2011.2.22)  21 MAR 2011 15:21
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **bare_conf.tex
 (./bare_conf.tex
-LaTeX2e <2005/12/01>
-Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
 (./IEEEtran.cls
 Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -17,7 +26,7 @@ Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
 
-(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+(/usr/share/texmf/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -105,15 +114,78 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
- (./Abstract.tex) (./introduction.tex) (./Milgram.tex)
-(./Working.tex) (./SpatialAR.tex) (./SeethroughAR.tex) (./Military.tex)
-(./others.tex)
+ (./Abstract.tex) (./introduction.tex
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ....  [http://en.wikipedia.org/wiki/Augmented_
+                                                  reality]
+? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 558.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 558.
+(Font)              <5> on input line 5.
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.439 
+      
+? 
+
+Underfull \hbox (badness 4556) in paragraph at lines 5--439
+\OT1/ptm/m/n/10 im-agery in live-video streams as a way to en-hance
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 5--439
+\OT1/ptm/m/n/10 the per-cep-tion of the real world. AR tech-nol-ogy in-
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 5--439
+\OT1/ptm/m/n/10 cludes head-mounted dis-plays and vir-tual reti-nal dis-
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 5--439
+\OT1/ptm/m/n/10 trolled en-vi-ron-ments con-tain-ing sen-sors and ac-tu-a-tors.
+
+ []
+
+(./Milgram.tex) (./AugVsVirt.tex [1
+
+
+]) (./Working.tex
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmri7t!
+Missing character: There is no € in font ptmri7t!
+Missing character: There is no “ in font ptmri7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [2]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+) (./SpatialAR.tex)
+(./SeethroughAR.tex) (./Application.tex [3])
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 558.
+(Font)              <8> on input line 560.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 560.
 
 
 ** Conference Paper **
@@ -126,18 +198,14 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1
-
-
-
-] (./bare_conf.aux) ) 
+[4] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 926 strings out of 95087
- 16053 string characters out of 1183278
- 62022 words of memory out of 1500000
- 4147 multiletter control sequences out of 10000+50000
- 27727 words of font info for 62 fonts, out of 1200000 for 2000
- 31 hyphenation exceptions out of 8191
- 26i,8n,19p,190b,293s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 927 strings out of 493748
+ 16065 string characters out of 3148649
+ 72741 words of memory out of 3500000
+ 4268 multiletter control sequences out of 15000+200000
+ 27727 words of font info for 62 fonts, out of 3000000 for 9000
+ 717 hyphenation exceptions out of 8191
+ 26i,8n,19p,1838b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bare_conf.dvi (1 page, 1808 bytes).
+Output written on bare_conf.dvi (4 pages, 30452 bytes).
