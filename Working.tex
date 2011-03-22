@@ -1,0 +1,52 @@
+Augmented Reality techniques are not new, they employ already known
+technologies to accomplish their goal. In a standard setup, the system
+consists of an input source like a mobile phone camera or a head mounted 
+camera unit , a processing unit, and a display unit. The input is the
+basis on which the information is augmented.
+
+To describe the working , let us take a simple example of projecting
+a 3D object on a sheet of paper.
+There are a few key requirements:
+\begin{enumerate}
+\item 
+The object must be projected at the exact place identified for it.
+\item
+The object must react to changes in the real world.(If the paper
+is moved the object must move as well.)
+\end{enumerate}
+
+\vspace*{5px}
+The Following steps are followed:
+\begin{enumerate}
+
+\item
+We place the real object (a sheet of paper, with a marked
+area , a square box, where the 3D object must be projected) in front
+of the camera.
+
+
+
+\item
+Our object recognition algorithm then identifies that there
+is a marked area on the paper , and its aware that it is a square.
+
+\item
+The algorithm then creates the projection of the square in 3D space.
+
+\item
+The algorithm transforms the the 3D object (a cuboid) to match the
+projection of the square.
+
+\item
+The algorithm redraws every frame coming from the camera with the
+3D object drawn above the square.And displays it using.
+
+
+\item
+Now if the user moves the piece of paper, the orientation of the
+square in 3D space changes , then steps 3,4,5 are repeated.
+
+
+\end{enumerate}
+
+%\end{enumerate}
